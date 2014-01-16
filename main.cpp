@@ -342,8 +342,8 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"dnsseed.litecointools.com", "dnsseed.litecoinpool.org", "dnsseed.ltc.xurious.com", ""};
-static const string testnet_seeds[] = {"testnet-seed.litecointools.com", ""};
+static const string mainnet_seeds[] = {"seed.koindashian.com", ""};
+static const string testnet_seeds[] = {"seed.koindashian.com", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
